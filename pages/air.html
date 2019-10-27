@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TrioRaid-seaRaid</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="icon" href="../assets/img/logo.png">
+    <link rel="stylesheet" href="../assets/css/air.css">
+</head>
+<body>
+    <div class="sk-folding-cube" id="loading-page">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+    </div>
+    <div class="score">
+        <p>Score: <span id="Score"></span> </p>
+    </div>
+       <button onclick="levels(500,'../assets/img/air_hero.png','../assets/img/air_enemy.png');" id="start">Start</button>
+    <div class="lives">
+        <p id="lives">3</p>
+        <img src="../assets/img/live.png" alt="lives">
+    </div>
+    <a href="../index.html"><img src="../assets/img/home.ico" class="home" id="home" alt="go home"></a>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

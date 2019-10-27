@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(69, 147, 184) url('../img/sky.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-y;
+    animation: move 30s linear infinite;
+    overflow: hidden;
+    font-family: 'dark',Arial, Helvetica, sans-serif;
+}
+@keyframes move {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -100%;
+    }
+}
